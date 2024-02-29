@@ -3,24 +3,24 @@
 ## Tech Stack
 dazeb/script-server is built on the following main stack:
 
-- [Mocha](http://mochajs.org/) – Javascript Testing Framework
-- [Python](https://www.python.org) – Languages
-- [jQuery](http://jquery.com/) – Javascript UI Libraries
-- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Karma](http://karma-runner.github.io/) – Browser Testing
-- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- [Python](https://www.python.org) – Languages
 - [Materialize](http://dogfalo.github.io/materialize/index.html) – Front-End Frameworks
-- [CodeMirror](http://codemirror.net/) – Text Editor
-- [Babel](http://babeljs.io/) – JavaScript Compilers
-- [SinonJS](http://sinonjs.org/) – Javascript Testing Framework
+- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - [Vue.js](http://vuejs.org/) – Javascript UI Libraries
+- [jQuery](http://jquery.com/) – Javascript UI Libraries
+- [vuex](https://vuex.vuejs.org) – State Management Library
+- [Babel](http://babeljs.io/) – JavaScript Compilers
+- [CodeMirror](http://codemirror.net/) – Text Editor
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Karma](http://karma-runner.github.io/) – Browser Testing
+- [Mocha](http://mochajs.org/) – Javascript Testing Framework
+- [SinonJS](http://sinonjs.org/) – Javascript Testing Framework
+- [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
 - [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- [vuex](https://vuex.vuejs.org) – State Management Library
-- [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
-- [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
 
@@ -30,24 +30,24 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 dazeb/script-server is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1420/TidYGd6a.png' alt='Karma'/> [Karma](http://karma-runner.github.io/) – Browser Testing
-- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2015/GN559Lfb.png' alt='Materialize'/> [Materialize](http://dogfalo.github.io/materialize/index.html) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2490/E_fCaAi6.png' alt='CodeMirror'/> [CodeMirror](http://codemirror.net/) – Text Editor
-- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
-- <img width='25' height='25' src='https://img.stackshare.io/service/3509/logo.png' alt='SinonJS'/> [SinonJS](http://sinonjs.org/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/3837/paeckCWC.png' alt='Vue.js'/> [Vue.js](http://vuejs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/6705/6128107.png' alt='vuex'/> [vuex](https://vuex.vuejs.org) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2490/E_fCaAi6.png' alt='CodeMirror'/> [CodeMirror](http://codemirror.net/) – Text Editor
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1420/TidYGd6a.png' alt='Karma'/> [Karma](http://karma-runner.github.io/) – Browser Testing
+- <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/3509/logo.png' alt='SinonJS'/> [SinonJS](http://sinonjs.org/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png' alt='Firefox'/> [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
 - <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/6705/6128107.png' alt='vuex'/> [vuex](https://vuex.vuejs.org) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png' alt='Firefox'/> [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
-- <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
 
@@ -58,7 +58,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [dazeb/script-server](https://github.com/dazeb/script-server)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|53<br/>Tools used|01/11/24 <br/>Report generated|
+|53<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
