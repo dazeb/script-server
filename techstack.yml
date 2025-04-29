@@ -1,0 +1,680 @@
+repo_name: dazeb/script-server
+report_id: c1ffe13e5445f81cae73d09addac3f6d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:28:00+00:00'
+requested_by: bugy
+provider: github
+branch: master
+detected_tools_count: 53
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/dazeb/script-server
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dazeb/script-server
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/dazeb/script-server
+  detection_source: Repo Metadata
+- name: Materialize
+  description: A modern responsive front-end framework based on Material Design
+  website_url: http://dogfalo.github.io/materialize/index.html
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/2015/GN559Lfb.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-03-25 09:03:01.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: bugy
+  last_updated_on: 2018-10-30 21:08:17.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: bugy
+  last_updated_on: 2018-10-30 21:08:17.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2020-04-03 22:03:20.000000000 Z
+- name: vuex
+  description: Centralized State Management for Vue.js.
+  website_url: https://vuex.vuejs.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/6705/6128107.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-01-11 22:00:36.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/babel.config.js
+  detection_source: web-src/babel.config.js
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:53:19.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-22 18:24:51.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/dazeb/script-server
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dazeb/script-server
+  detection_source: Repo Metadata
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-22 18:24:51.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bugy
+  last_updated_on: 2019-12-29 13:58:08.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: bugy
+  last_updated_on: 2019-12-19 21:15:50.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: bugy
+  last_updated_on: 2018-02-23 08:06:22.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2020-04-23 14:47:04.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: bugy
+  last_updated_on: 2018-10-30 21:08:17.000000000 Z
+- name: Brace
+  description: Host static websites from the comfort of Dropbox
+  website_url: http://brace.io/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/730/FmOfEvH3.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-22 18:24:51.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-01-06 11:10:42.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dazeb/script-server
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-01-11 22:00:36.000000000 Z
+- name: "@babel/plugin-proposal-optional-chaining"
+  description: Transform optional chaining operators into a series of nil checks
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-optional-chaining
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16306/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:53:19.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-03-25 09:03:01.000000000 Z
+- name: "@vue/cli-plugin-babel"
+  description: Babel plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-babel
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:53:19.000000000 Z
+- name: "@vue/cli-service"
+  description: Local service for vue-cli projects
+  package_url: https://www.npmjs.com/@vue/cli-service
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-22 18:24:51.000000000 Z
+- name: "@vue/test-utils"
+  description: Utilities for testing Vue components
+  package_url: https://www.npmjs.com/@vue/test-utils
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16231/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-22 18:24:51.000000000 Z
+- name: axios-mock-adapter
+  description: Axios adapter that allows to easily mock requests
+  package_url: https://www.npmjs.com/axios-mock-adapter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17391/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-22 18:24:51.000000000 Z
+- name: babel-plugin-rewire
+  description: A babel plugin adding the ability to rewire module dependencies
+  package_url: https://www.npmjs.com/babel-plugin-rewire
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17175/default_910830d687176198a61da14da59a653ebc555fa0.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:53:19.000000000 Z
+- name: brace
+  description: Browserify compatible version of the ace editor
+  package_url: https://www.npmjs.com/brace
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17373/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-22 18:24:51.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2020-04-23 14:47:04.000000000 Z
+- name: expect
+  description: This package exports the `expect` function used in [Jest]
+  package_url: https://www.npmjs.com/expect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16110/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2020-04-16 19:30:48.000000000 Z
+- name: exports-loader
+  description: Exports loader module for webpack
+  package_url: https://www.npmjs.com/exports-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16572/default_aaf5839b9bd35cf60ebf8e1b59d64d8e3b398aaa.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: http-proxy-middleware
+  description: The one-liner node.js proxy middleware for connect
+  package_url: https://www.npmjs.com/http-proxy-middleware
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:53:19.000000000 Z
+- name: jest-extended
+  description: Additional Jest matchers
+  package_url: https://www.npmjs.com/jest-extended
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17645/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-03-25 09:03:01.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: karma-mocha
+  description: A Karma plugin. Adapter for Mocha testing framework
+  package_url: https://www.npmjs.com/karma-mocha
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: karma-sourcemap-loader
+  description: Karma plugin that locates and loads existing javascript source map
+    files
+  package_url: https://www.npmjs.com/karma-sourcemap-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16011/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: karma-spec-reporter
+  description: A Karma plugin
+  package_url: https://www.npmjs.com/karma-spec-reporter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16130/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: karma-webpack
+  description: Use webpack with karma
+  package_url: https://www.npmjs.com/karma-webpack
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-03-27 08:32:49.000000000 Z
+- name: material-design-icons
+  description: Material Design icons by Google
+  package_url: https://www.npmjs.com/material-design-icons
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17409/default_bdd3cbd2ffd904a2fe09048437badf6984450361.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-03-25 09:03:01.000000000 Z
+- name: materialize-css
+  description: Builds Materialize distribution packages
+  package_url: https://www.npmjs.com/materialize-css
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18643/default_307f5e470653b390ca19fe4af233f51d7f1b3ed4.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-03-25 09:03:01.000000000 Z
+- name: mock-socket
+  description: Javascript mocking library for websockets and socket.io
+  package_url: https://www.npmjs.com/mock-socket
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18702/default_803d9095ae52cd39a90bd905df9c2e4583f75904.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2020-03-30 21:20:07.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-23 09:39:05.000000000 Z
+- name: tinycolor2
+  description: Fast Color Parsing and Manipulation
+  package_url: https://www.npmjs.com/tinycolor2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16845/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-05-22 18:24:51.000000000 Z
+- name: typeface-roboto
+  description: Roboto typeface
+  package_url: https://www.npmjs.com/typeface-roboto
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18618/default_632bbfb948e0ea8f8e1cc2caaa8946b66a13d200.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-12-05 16:31:58.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: bugy
+  last_updated_on: 2018-10-30 21:08:17.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2021-01-11 22:00:36.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/web-src/package.json
+  detection_source: web-src/package.json
+  last_updated_by: yshepilov
+  last_updated_on: 2020-04-23 14:47:04.000000000 Z
+- name: tornado
+  description: Tornado is a Python web framework and asynchronous networking library
+  package_url: https://pypi.org/project/tornado
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19860/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/dazeb/script-server/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bugy
+  last_updated_on: 2019-12-29 13:58:08.000000000 Z
