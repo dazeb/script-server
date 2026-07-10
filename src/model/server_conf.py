@@ -45,7 +45,7 @@ class ServerConfig(object):
         self.xsrf_protection = None
         # noinspection PyTypeChecker
         self.env_vars: EnvVariables = None
-        self.cookie_secure = True
+        self.cookie_secure = False
 
     def get_port(self):
         return self.port
@@ -202,7 +202,7 @@ def from_json(conf_path, temp_folder):
 
     security = model_helper.read_dict(json_object, 'security')
 
-    config.cookie_secure = model_helper.read_bool_from_config('cookie_secure', security, default=True)
+    config.cookie_secure = model_helper.read_bool_from_config('cookie_secure', security, default=config.ssl)
     config.allowed_users = _prepare_allowed_users(allowed_users, admin_users, user_groups)
     config.alerts_config = json_object.get('alerts')
     config.callbacks_config = json_object.get('callbacks')

@@ -864,8 +864,9 @@ def init(server_config: ServerConfig,
         'websocket_ping_timeout': 300,
         'compress_response': True,
         'xsrf_cookies': server_config.xsrf_protection != XSRF_PROTECTION_DISABLED,
+        # _xsrf must NOT be httponly: the frontend reads it from document.cookie
+        # and sends it back as the X-XSRFToken header (double-submit pattern)
         'xsrf_cookie_kwargs': {
-            'httponly': True, 
             'secure': server_config.cookie_secure,
             'samesite': 'Lax'
         },
